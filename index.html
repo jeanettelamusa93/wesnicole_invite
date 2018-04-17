@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rachel and Rose - Clean and responsive HTML Wedding Template">
+    <meta name="author" content="">
+
+    <!-- Document Title  -->
+    <title>Nicole & Wesley</title>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Pacifico" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/skins/gold.css" type="text/css">
+
+<style>
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .my-parallax.height400 {
+    background-position-x: 38%;}
+  #main-slider .item {
+    height: 350px;
+    margin-top: 250px;}
+}
+div.container-fluid {padding-top: 400px;}
+}
+div.container-fluid {padding-top: 180px;}
+div.my-parallax {min-height:480px;}
+div.col-md-8 {z-index: 1;}
+
+.nav > li > a:focus, .nav > li > a:hover, .nav > li.active > a {
+    color: #909090!important;
+    background-color: transparent;
+}
+
+a:link.external {color: #777777;}
+a:visited.external {color: #999999;}
+a:active.external {color: #777777;}
+a:hover.external {color: #999999;}.big-icon{
+    background: #bbbbbb;
+    color: #fff;
+    border: 2px solid #bbbbbb;
+}
+
+a .big-icon:hover {
+    background: #aaaaaa;
+    color: #fff;
+    border: 2px solid #aaaaaa;
+}
+
+input.large-button[type="submit"] {
+    border: 2px solid #D68C8D !important;
+    background-color: #D68C8D !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+input.large-button:hover[type="submit"] {
+    border: 2px solid #D68C8D !important;
+    background-color: #D68C8D !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+a#verseker {    border: 2px solid #D68C8D !important;
+                background-color: #D68C8D !important;
+                color: #ffffff !important;
+                font-weight: 800 !important;}
+
+div a.large-button:link {
+    border: 2px solid #D68C8D !important;
+    background-color: #D68C8D !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+a.large-button:hover {
+    border: 2px solid #D68C8D !important;
+    background-color: #D68C8D !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+::selection {
+  background: #999999;
+}
+::-moz-selection {
+  background: #999999;
+}
+
+body {
+    background-image: url("http://wesnicolewed.co.za/images/Wallpaper-01.jpg");
+}
+
+.spacer hr {
+    border-top: 2px solid #888888!important;
+}
+h1, h2, h3, h4, h5,h6 {
+    color: #5E5E5E;
+}
+
+@font-face {font-family: HerrVonMuellerhoff-Regular;
+src: url(../fonts/HerrVonMuellerhoff-Regular.ttf)}
+
+.herr {font-family: 'Herr Von Muellerhoff', "cursive";
+src: url(../fonts/HerrVonMuellerhoff-Regular.ttf)}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium Web Light'), local('TitilliumWeb-Light'), url(https://fonts.gstatic.com/s/titilliumweb/v6/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGItzY5abuWI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.titil {font-family: 'Titillium Web', sans-serif;
+src: url(../fonts/TitilliumWeb-Light.ttf);}
+
+@font-face {font-family:'Pinyon Script', cursive;
+src: url(../fonts/PinyonScript-Regular.ttf)}
+
+.pin {font-family:'Pinyon Script', "cursive";
+src: url(../fonts/PinyonScript-Regular.ttf)}
+
+.gvf {font-family: 'Great Vibes', "cursive";
+src: url(../fonts/GreatVibes-Regular.ttf)}      .countdown-num span {
+    background: #D68C8D!important;
+    border-color: #D68C8D!important;
+    color: #fff!important;
+
+}
+
+.countdown-num p {
+    font-size: 15px;
+    color: #000;
+}
+
+ul.direction li {
+  color: #5E5E5E;
+}
+input.form-button {
+  background-color: #5E5E5E;
+}
+
+.navbar-toggle {
+    float: inherit;
+}
+
+footer.bottom p {
+  color: #444444;
+  float: center;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="preloader"></div>
+    <div class="content">
+
+      <!-- HEADER -->
+      <div class="section-non-padding" id="home">
+        <header>
+          <nav class="navbar navbar-fixed-top navbar-theme navbar-theme-two animatefadeInDown">
+            <div class="nav-bg">
+
+              <div class="container">
+                <div class="row">
+
+                  <!-- CHANGE top description -->
+
+                  <!-- <div class="top-desription text-center">Suzaan & Edwan</div> -->
+
+                  <!-- / CHANGE top description -->
+
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#landing-navbar-collapse" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="landing-navbar-collapse">
+
+                       <div class="col-xs-12 col-sm-5 col-md-5">
+                          <ul class="nav navbar-nav scroll-nav">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#our-story">Our story</a></li>
+                            <li><a href="#venue">Invitation</a></li>
+                          </ul>
+                       </div>
+
+                           <div class="col-xs-12 col-sm-2 col-md-2 logo-div">
+                           <img src="images/Logo-01.png" alt="">
+                           <a class="navbar-logo" href="one-page-template.html"></a>
+                           </div>
+
+                        <div class="col-xs-12 col-sm-5 col-md-5">
+                         <ul class="nav navbar-nav navbar-right scroll-nav">
+                          <li><a href="#location">Directions</a></li>
+                           <li><a href="#accommodation">Accommodation</a></li>
+                            <li><a href="#rsvp">R.S.V.P.</a></li>
+                          </ul>
+                         </div>
+                    </div>
+
+                </div><!-- / row -->
+              </div><!-- / container -->
+            </div><!-- / nav-bg -->
+
+          </nav>        </header>
+      </div> <!-- / Section #header -->
+      <!-- / HEADER -->    <!-- SLIDER -->
+
+    <div id="main-slider">
+      <div class="owl-carousel">
+
+        <!-- CHANGE slide item -->
+
+        <div class="item" style="background-image: url(images/Bannerimage-01.jpg);">
+          <!-- <div class="slider-inner">
+            <div class="slider-row">
+              <div class="slider-centered">
+                <div class="slider-content animatezoomIn">
+                  <p>It is our moment to celebrate the love that unites us <br/>Together with our parents, we</p>
+                  <h2>Kylie<i class="fa fa-heart-o"></i>Petrus</h2>
+                  <div class="date-wrapper">
+                    <p class="date">23 September 2017</p>
+                  </div>
+                  <p>invite you to share with us this joyous celebration of at our wedding.</p>
+                  <div class="slider-btn">
+                    <a class="large-button scroll-nav" href="#rsvp">R.S.V.P. HERE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <!-- / CHANGE slide item -->
+
+        <!-- CHANGE slide item -->
+<!--
+        <div class="item" style="background-image: url(http://placehold.it/2000x1333);">
+          <div class="slider-inner">
+            <div class="slider-row">
+              <div class="slider-centered">
+                <div class="slider-content animatezoomIn">
+                  <h2>Gift registry</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ut iure nemo quo assumenda impedit, quos eveniet, dignissimos praesentium perspiciatis deleniti amet iste esse ipsam sequi repudiandae libero a quis!</p>
+                  <div class="slider-btn">
+                    <a class="large-button" href="gift-registry.html">Registry</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+        <!-- / CHANGE slide item -->        <!-- CHANGE slide item -->
+
+        <!-- <div class="item" style="background-image: url(images/venue.jpg);">
+          <div class="slider-inner">
+            <div class="slider-row">
+              <div class="slider-centered">
+                <div class="slider-content animatezoomIn">
+                  <h2>Ceremony location</h2>
+                  <h4>23 September 2017</h4>
+                  <h6>at 15:00 </h6>
+                  <p>Vrede en Lust Wine Estate,<br/> Simondium,<br/> Cape Winelands</p>
+                  <div class="slider-btn">
+                    <a class="large-button" href="location-page.html">View Event Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- / CHANGE slide item -->
+
+      </div>
+    </div>
+
+    <!-- / SLIDER -->    <!--SETTING-->
+    <!-- <div id="options-setting">
+      <div id="setting-button-wrapper">
+        <a id="setting-button" href="#">
+          <div class="setting-icon">
+            <i class="fa fa-cogs" aria-hidden="true"></i>
+          </div>
+        </a>
+      </div>
+      <div>
+        <h6>WEDDING COLOR</h6>
+          <div style="position:relative">
+            <a href="#" id="vanilla"><span class="swatches vanilla">Vanilla</span></a>
+            <a href="#" id="chocolate"><span class="swatches chocolate">Chocolate</span></a>
+            <a href="#" id="cherry"><span class="swatches cherry">Cherry</span></a>
+            <a href="#" id="mint"><span class="swatches mint">Mint</span></a>
+            <a href="#" id="strawberries"><span class="swatches strawberries">Strawberries</span></a>
+            <a href="#" id="lavan"><span class="swatches lavan">Lavender</span></a>
+          </div>
+      </div>
+      <div>
+        <h6>PATTERN</h6>
+          <div style="position:relative;">
+            <a href="#" id="pattern-1"><span class="pattern-swatches pattern-1">Pattern 1</span></a>
+            <a href="#" id="pattern-2"><span class="pattern-swatches pattern-2">Pattern 2</span></a>
+            <a href="#" id="pattern-3"><span class="pattern-swatches pattern-3">Pattern 3</span></a>
+            <a href="#" id="pattern-none"><span class="pattern-swatches pattern-none">None</span></a>
+          </div>
+      </div>
+    </div>  -->
+    <!--/ SETTING-->    <!-- PAGE CONTENT -->
+    <div class="section" id="countdown">
+      <div class="page-head-title text-center animatefadeInUp">
+
+                <!-- CHANGE page title -->
+
+                <h1 style="color:#D68C8D;" class="gvf" font-size: "100px;">We're getting married!</h1><br/>
+
+                <!-- / CHANGE page title -->
+              <div id="getting-countdown" class="animatefadeIn">
+              </div>
+       </div>
+    </div>
+
+ <div class="section" id="our-story">
+      <div class="margin-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="page-head-title text-center animatefadeInUp">
+
+                    <h1 style="color:#D68C8D;" class="gvf">Our Story</h1>
+                      <div class="spacer"> <hr></div>
+
+                </div>
+            </div>
+          </div>
+
+              <div class="col-md-4">
+              <div class="person-image animatefadeIn">
+                <img src="images/2.jpg" alt="Image date">
+              </div>
+              </div>
+
+              <div class="col-md-5">
+                   <div class="text-center">
+                   <p style="color:#000000;" font-size:"80px" class= "titil">Our Beginning & Ever After</p><br/>
+                   <p class= "titil">Our story began in August 2009, by the click of the “Poke" button on Facebook - a digital nudge to convey each other’s existence.<br/>
+
+                   The "Poke" is one of Facebook's most-cryptic features, but for us, a simple “Poke” 9 years ago was the catalyst for our relationship.<br/>
+                  We started chatting and got to know one another, until one night, we happened to be in the same place, at the same time. <br/>
+
+                  We met each other for the first time at the News Cafe. Our first meeting was short, but definitely made an impression, especially after receiving a rose hand made from a paper serviette.<br/>
+
+                   After several months of seeing each other, on 28 April 2012, we went on a date to the News Cafe- this being the place where we first met, followed by a dinner and dance at the  "Back of the Moon". When we approached our table, there was a massive bouquet of red roses, alongside a dessert with the words that said “Be Mine”...<br/>
+
+                  Fast forward to 2017 and after 5 years of dating, we took a trip to Australia. On 11.09.2017, ‪we arrived at a place called "Bradley's Head". Hand in hand, and walking down the amphitheater, we came to find the most romantic setting at the end of the pier with the most stunning views over looking the Sydney Harbour and the Sydney Opera House, the perfect setting for the most over the top romantic, out of this world proposal. ‬‬<br/>
+
+                 We can’t wait to get married - we believe that we are soul mates. True love really does exist!
+                  <br/></p>
+                </div>
+            </div>
+            </div><!-- /row -->
+        </div> <!-- /container -->
+     </div>
+
+ <div class="my-parallax-venue" style="background: transparent;">
+      <div class="section" id="venue">
+          <div class="text-center">
+            <div class="alignment clearfix">
+              <div class="v-align center-middle">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+
+                      <div class="page-head-title text-center animatefadeInUp">
+                        <h1 style="color:#D68C8D;" class="gvf">Invitation</h1>
+                        <div class="spacer"><hr>
+                        </div>
+
+                      <p class= "titil">Please join us for a celebration of love, <br/>laughter, family and friends,<br/>
+                        as we begin our new life together<br/>
+                      </p>
+
+                     <img src="images/NicoleWelsey.png" class="center">
+
+                      <h3 class="gvf" style="color:#5E5E5E; font-size: 30px;"><strong >15 September 2018<br/>
+                        13h00</strong></h3>
+
+                            <p class= "titil" style="color: #D68C8D;">Ceremony</p>
+                            <p class= "titil">Our Lady Of Lebanon Maronite Catholic Church, Mulbarton<br/>Reception To Follow Immediately
+
+                            <p><span class= "titil" style="color: #D68C8D;">Reception</span></p>
+                            <p class= "titil">Memoire Wedding and Function Venue<br/>
+
+                            <p><strong class= "titil" style="color: #D68C8D;">R.S.V.P.</BR>Please R.S.V.P. by 1 August 2018</strong> </p>
+                            <p class= "titil">love@wesnicole.co.za<br/>
+
+                           <p><strong class= "titil" style="color: #D68C8D;">Gift</strong></p>
+                           <p class= "titil">Our worldly possessions are plentiful as such,<br/>
+                           on our wedding present list there really isn't much,<br/>
+                           a gift of currency is all we ask,<br/>
+                           to help us on our lifelong task.
+
+                            <p><strong class= "titil" style="color: #D68C8D;">Dress code</strong></p>
+                            <p class= "titil">Strictly Formal<br/> Children by invitation only</p>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>        <div class="my-parallax" style="background-image: url(images/1.jpg)">
+          <div class="my-parallax-overlay-top text-center">
+            <div class="alignment clearfix">
+              <div class="v-align center-middle">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+
+                      <h1 class="gvf">Will you be joining us?</h1>
+                      <p class= "titil" style="color:#FFFFFF"><strong>Let us know if you're coming</strong> </p>
+                      <a class="large-button" href="#rsvp" id="verseker">Definitely!</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="section directions-container" id="location">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-head-title text-center animatefadeInUp">
+
+              <!-- CHANGE page title -->
+
+              <h1 style="color:#D68C8D;" class="gvf">Directions</h1>
+              <div class="spacer"><hr>
+                </div>
+              </div>
+            </div>
+          </div>        <div class="row">
+          <div class="col-md-6">
+            <div class="location-item">
+
+              <!-- CHANGE location content -->
+              <div class="text-center">
+                  <a href="https://www.google.co.za/maps/place/Memoire+wedding+and+Function+Venue/@-25.9939046,27.8253865,15z/data=!4m5!3m4!1s0x0:0xb0af8fd7ba3478e5!8m2!3d-25.9939625!4d27.8309226" target="_blank">
+                  <img src="images/Memoire.png" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen /><!-- Checked </iframe> -->
+                  </a>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-md-6">
+              <div class="location-item">
+                 <!-- CHANGE location content -->
+                <div class="text-left">
+
+                  <p><strong style="color:#D68C8D;" class= "titil">Our Lady of Lebanon Maronite Catholic Church</p>
+                  <p class= "titil">Address: 8 Blougom Crescent, Liefde-en-Vrede, Mulbarton</br>GPS Coordinates: 26°18'38.5''S 28°03'35.9''E</p>
+
+				          <ul class="direction" style="padding: 2%;">
+                    <li class= "titil">Travel along the M1 (South) Bloemfontein, take the Booysens off-ramp (before Gold Reef City) and keep left onto Booysens Road.
+                      <li class= "titil">At the fourth traffic light (Chicken Licken on left) turn right into Kliprivier.
+                        <li class= "titil">Continue with this road over seven traffic lights and take the Aspen Hills off-ramp.
+                          <li class= "titil">At the stop street turn left into Klipview road. Take the first right into Blougom Crescent.
+                            <li class= "titil">The lady of Lebanon Church is on the right.</br></ul>
+
+              <p><strong style="color:#D68C8D;" class= "titil">MEMOIRE Wedding and Function Venue</p>
+                    <p class= "titil">Address: Kromdraai Road – R374, Muldersdrift Farm Valley, Muldersdrift, Krugersdorp</br>GPS Coordinates: 25°59'41.1"S 27°49'48.6"E</p></STRONG>
+
+                  <ul class="direction" style="padding: 2%;">
+                    <li class= "titil">Travel for 17km along Beyers Naude/M5, towards Honeydew, turn left onto R374.
+                      <li class= "titil">Drive along R374 for 3.3km, you will see a sign for Memoire Wedding & Function Venue, turn left onto the gravel road.
+                        <li class= "titil">Travel along the gravel road for 1.2km and Memoire Wedding & Function Venue will be on your right.</li></ul>                    <p><br />Contact person: Jaco – 079 170 9431</p>
+                 </div>
+               </div>
+             </div>
+          </div><!-- /row -->
+  <div class="section directions-container" id="accommodation">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-head-title text-center animatefadeInUp">
+
+              <!-- CHANGE page title -->
+
+              <h1 style="color:#D68C8D;" class="gvf">Accommodation</h1>
+              <div class="spacer"><hr><br/>
+
+                <p class="small">
+
+                  <p><strong class= "titil">Glenburn Lodge & Spa </br>011 668 1600 </br>
+                  <a href="http://www.glenburn.co.za" class="external">  www.glenburn.co.za</a> </p>
+
+                  <p><strong class= "titil">Toadbury Hall Country Hotel</br> 010 593 7523</br>
+                  <a href="http://www.toadburyhall.co.za" class="external">  www.toadburyhall.co.za</a></p>
+
+                  <p><strong class= "titil">Misty Hills </br> 0119506006 – 072 384 2016</br>
+                  <a href="http://www.mistyhills.co.za/" class="external">  www.mistyhills.co.za</a> </strong></p>
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="rsvp">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-head-title text-center animatefadeInUp">
+
+              <!-- CHANGE page title -->
+
+              <h1 style="color:#D68C8D;" class="gvf">R.S.V.P.</h1>
+                     <div class="spacer">
+                         <hr>
+                     </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>      <div class="section-body clearfix">
+        <div class="row">
+           <div class="form">
+
+              <!-- form -->
+              <form id="contact-form" method="POST" data-netlify="true">
+
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <label for="formName" class="form-group" style="color: #14202c;">
+                    <span class="color-element">*</span>Your name<span class="help-block"></span>
+                    <input type="text" id="formName" name="name" placeholder="Your name" data-validation-required-message="Name is required and must be a string." />
+                  </label>
+
+                  <label for="formEmail" class="form-group" style="color: #14202c;">
+                    <span class="color-element">*</span>Your E-mail<span class="help-block"></span>
+                    <input type="email" id="formEmail" name="email" placeholder="Your E-mail" data-validation-required-message="An email address is required." data-validation-email-message="Please add a valid email" />
+                  </label>
+
+                  <label for="formPhone" class="form-group" style="color: #14202c;">
+                    Cell Number
+                    <input type="text" id="formPhone" name="phone" placeholder="Your phone number" />
+                  </label>
+                </div>                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <label for="formMessage" class="form-group" style="color: #14202c;">
+                    Additional information
+                    <textarea name="message" id="formMessage" cols="10" rows="3" placeholder="Number of people attending and dietary requirements."></textarea>
+                  </label>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-button">
+                    <input type="submit" class="large-button" value="Send">
+                  </div>
+                </div>
+
+            </form>
+
+              <!-- / form -->
+
+        </div>
+      </div>
+    </div><!-- /section #rsvp -->
+   <div class="section directions-container" id="gallery">
+      <div class="container-fluid">          <div class="col-md-4">
+
+              <div class="person-image animatefadeIn">
+                <!-- CHANGE page image -->
+                <img src="images/photo4.jpg" alt="Kylie and jade 1">
+                <!-- / CHANGE page image -->
+              </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+              <div class="person-image animatefadeIn">
+                <!-- CHANGE page image -->
+                <img src="images/photo5.jpg" alt="Kylie and jade 2">
+                <!-- / CHANGE page image -->
+              </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+              <div class="person-image animatefadeIn">
+                <!-- CHANGE page image -->
+                <img src="images/photo6.jpg" alt="Kylie and jade 3">
+                <!-- / CHANGE page image -->
+              </div>
+
+          </div>
+
+      </div>
+    </div>    <!-- / PAGE CONTENT -->    <!-- FOOTER -->
+
+    <!-- CHANGE footer background -->
+
+    <footer class="top footer-background-cover text-center" style="background-image: url('images/3.jpg');">
+
+    <!-- / CHANGE footer background -->
+
+      <div class="footer-background-overlay">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-top-content animatezoomIn">
+
+                <!-- CHANGE footer title -->                <h3 style="font-size: 22px;" class="gvf">“I promise to help you love life, and to have the patience that love demands. I promise to live within the warmth of your heart, and always call it home. <br/>I promise to fiercely love you in all your forms, and to never forget that this, is a once in a lifetime love.”<br/>
+                                      </h3>
+
+                <!-- / CHANGE footer title -->
+
+                            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="bottom">
+         <div class="container">
+          <div class="row">
+            <p>© 2018 All Rights Reserved Pistachio Designs</p>
+         </div>
+         </div>
+    </footer>
+
+    <!-- / FOOTER -->
+
+    <!-- SCROLL UP -->
+
+    <a href="#" class="scrollup">
+      <div class="outline-icon big-icon">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+      </div>
+    </a>
+
+    <!-- / SCROLL UP -->
+
+  </div>
+   <!-- / CONTENT -->
+
+    <!-- JavaScript
+    ================================================== -->
+    <!-- jQuery -->
+    <script src="js/libs/jquery.js"></script>
+    <!-- PACE -->
+    <script src="js/libs/pace.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/libs/bootstrap.min.js"></script>
+    <!-- Modernizr -->
+    <script src="js/libs/modernizr.js"></script>
+    <!-- Owl Carousel -->
+    <script src="js/libs/owl.carousel.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/libs/jquery.waypoints.min.js"></script>
+    <!-- jqBootstrapValidation -->
+    <script src="js/libs/jqBootstrapValidation.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/libs/jquery.magnific-popup.min.js"></script>
+    <!-- Countdown -->
+    <script src="js/libs/jquery.countdown.min.js"></script>
+    <!-- Custom -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
