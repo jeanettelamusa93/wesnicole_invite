@@ -38,18 +38,23 @@
     margin-right: auto;
     width: 50%;
 }
-
-@media screen and (max-width: 480px) {
-	.my-parallax.height400 {
-		background-position-x: 38%;
-	}
-  	#main-slider .item {
-	    height: 350px;
-	    margin-top: 250px;}
-	}
-	div.container-fluid {padding-top: 400px;}
-}
 	
+.nicolewesnames {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 480px) { 
+  .my-parallax.height400 {
+    background-position-x: 38%;}
+  #main-slider .item {
+    height: 350px;
+    margin-top: 250px;}
+}
+div.container-fluid {padding-top: 100px;}
+}
 div.container-fluid {padding-top: 180px;}
 div.my-parallax {min-height:480px;}
 div.col-md-8 {z-index: 1;}
@@ -62,10 +67,13 @@ div.col-md-8 {z-index: 1;}
 a:link.external {color: #777777;}
 a:visited.external {color: #999999;}
 a:active.external {color: #777777;}
-a:hover.external {color: #999999;}.big-icon{
-    background: #bbbbbb;
+a:hover.external {color: #999999;}
+
+
+.big-icon{
+    background: #D68C8D;
     color: #fff;
-    border: 2px solid #bbbbbb;
+    border: 2px solid #D68C8D;
 }
 
 a .big-icon:hover {
@@ -88,13 +96,11 @@ input.large-button:hover[type="submit"] {
     font-weight: 600 !important;
 }
 
-a#verseker {    
-	border: 2px solid #D68C8D !important;
-	background-color: #D68C8D !important;
-	color: #ffffff !important;
-	font-weight: 800 !important;
-}
-
+a#verseker {    border: 2px solid #D68C8D !important;
+                background-color: #D68C8D !important;
+                color: #ffffff !important;
+                font-weight: 800 !important;}
+	
 div a.large-button:link {
     border: 2px solid #D68C8D !important;
     background-color: #D68C8D !important;
@@ -110,10 +116,11 @@ a.large-button:hover {
 }
 
 ::selection {
-  background: #999999;
+  background: #999999; 
 }
-::-moz-selection {
-  background: #999999;
+
+::moz-selection {
+  background: #999999; 
 }
 
 body {
@@ -123,6 +130,7 @@ body {
 .spacer hr {
     border-top: 2px solid #888888!important;
 }
+
 h1, h2, h3, h4, h5,h6 {
     color: #5E5E5E;
 }
@@ -131,34 +139,24 @@ h1, h2, h3, h4, h5,h6 {
 src: url(../fonts/HerrVonMuellerhoff-Regular.ttf)}
 
 .herr {font-family: 'Herr Von Muellerhoff', "cursive";
-src: url(../fonts/HerrVonMuellerhoff-Regular.ttf)}
-
-@font-face {
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Titillium Web Light'), local('TitilliumWeb-Light'), url(https://fonts.gstatic.com/s/titilliumweb/v6/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGItzY5abuWI.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-.titil {font-family: 'Titillium Web', sans-serif;
-src: url(../fonts/TitilliumWeb-Light.ttf);}
+src: url(../fonts/HerrVonMuellerhoff-Regular.ttf)}    
 
 @font-face {font-family:'Pinyon Script', cursive;
 src: url(../fonts/PinyonScript-Regular.ttf)}
 
 .pin {font-family:'Pinyon Script', "cursive";
-src: url(../fonts/PinyonScript-Regular.ttf)}
+src: url(../fonts/PinyonScript-Regular.ttf)} 
 
 .gvf {font-family: 'Great Vibes', "cursive";
-src: url(../fonts/GreatVibes-Regular.ttf)}      
+src: url(../fonts/GreatVibes-Regular.ttf)}
 
-.countdown-num span {
+
+      .countdown-num span {
     background: #D68C8D!important;
     border-color: #D68C8D!important;
     color: #fff!important;
 
-}
+}  
 
 .countdown-num p {
     font-size: 15px;
@@ -178,13 +176,16 @@ input.form-button {
 
 footer.bottom p {
   color: #444444;
-  float: center;
+  float: inherit;
 }
 
-p {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 300;
+button.large-button, a.large-button, input.large-button[type="submit"] {
+    border: 2px solid #D68C8D!important;
+    background-color: #D68C8D!important;
+    color: white!important;
+    font-weight: 600!important;
 }
+
     </style>
   </head>
 
@@ -206,7 +207,7 @@ p {
                   <!-- <div class="top-desription text-center">Suzaan & Edwan</div> -->
 
                   <!-- / CHANGE top description -->
-
+                
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#landing-navbar-collapse" aria-expanded="false">
                       <span class="sr-only">Toggle navigation</span>
@@ -228,7 +229,7 @@ p {
                        </div>
 
                            <div class="col-xs-12 col-sm-2 col-md-2 logo-div">
-                           <img src="images/Logo-01.png" alt="">
+                           <img src="images/Logo-01.png" alt=""> 
                            <a class="navbar-logo" href="one-page-template.html"></a>
                            </div>
 
@@ -245,33 +246,139 @@ p {
               </div><!-- / container -->
             </div><!-- / nav-bg -->
 
-          </nav>        </header>
+          </nav>
+
+
+        </header>
       </div> <!-- / Section #header -->
-      <!-- / HEADER -->    <!-- SLIDER -->
+      <!-- / HEADER -->
+
+
+    <!-- SLIDER -->
 
     <div id="main-slider">
       <div class="owl-carousel">
 
         <!-- CHANGE slide item -->
 
-        <div class="item" style="background-image: url(images/Bannerimage-01.jpg);"></div>
+        <div class="item" style="background-image: url(images/Bannerimage-01.jpg);">
+          <!-- <div class="slider-inner">
+            <div class="slider-row">
+              <div class="slider-centered">
+                <div class="slider-content animatezoomIn">
+                  <p>It is our moment to celebrate the love that unites us <br/>Together with our parents, we</p>
+                  <h2>Kylie<i class="fa fa-heart-o"></i>Petrus</h2>
+                  <div class="date-wrapper">
+                    <p class="date">23 September 2017</p>
+                  </div>
+                  <p>invite you to share with us this joyous celebration of at our wedding.</p>
+                  <div class="slider-btn">
+                    <a class="large-button scroll-nav" href="#rsvp">R.S.V.P. HERE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <!-- / CHANGE slide item -->
+
+        <!-- CHANGE slide item -->
+<!--
+        <div class="item" style="background-image: url(http://placehold.it/2000x1333);">
+          <div class="slider-inner">
+            <div class="slider-row">
+              <div class="slider-centered">
+                <div class="slider-content animatezoomIn">
+                  <h2>Gift registry</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ut iure nemo quo assumenda impedit, quos eveniet, dignissimos praesentium perspiciatis deleniti amet iste esse ipsam sequi repudiandae libero a quis!</p>
+                  <div class="slider-btn">
+                    <a class="large-button" href="gift-registry.html">Registry</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+        <!-- / CHANGE slide item -->
+
+
+        <!-- CHANGE slide item -->
+  
+        <!-- <div class="item" style="background-image: url(images/venue.jpg);">
+          <div class="slider-inner">
+            <div class="slider-row">
+              <div class="slider-centered">
+                <div class="slider-content animatezoomIn">
+                  <h2>Ceremony location</h2>
+                  <h4>23 September 2017</h4>
+                  <h6>at 15:00 </h6>
+                  <p>Vrede en Lust Wine Estate,<br/> Simondium,<br/> Cape Winelands</p>
+                  <div class="slider-btn">
+                    <a class="large-button" href="location-page.html">View Event Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
 
         <!-- / CHANGE slide item -->
 
       </div>
     </div>
 
-    <!--/ SETTING-->    <!-- PAGE CONTENT -->
+    <!-- / SLIDER -->
+
+
+
+
+
+    <!--SETTING-->
+    <!-- <div id="options-setting"> 
+      <div id="setting-button-wrapper">
+        <a id="setting-button" href="#">
+          <div class="setting-icon">
+            <i class="fa fa-cogs" aria-hidden="true"></i>
+          </div>
+        </a>
+      </div>
+      <div>
+        <h6>WEDDING COLOR</h6>
+          <div style="position:relative">
+            <a href="#" id="vanilla"><span class="swatches vanilla">Vanilla</span></a>
+            <a href="#" id="chocolate"><span class="swatches chocolate">Chocolate</span></a>
+            <a href="#" id="cherry"><span class="swatches cherry">Cherry</span></a>
+            <a href="#" id="mint"><span class="swatches mint">Mint</span></a>
+            <a href="#" id="strawberries"><span class="swatches strawberries">Strawberries</span></a>
+            <a href="#" id="lavan"><span class="swatches lavan">Lavender</span></a>
+          </div>
+      </div>
+      <div>
+        <h6>PATTERN</h6>
+          <div style="position:relative;">
+            <a href="#" id="pattern-1"><span class="pattern-swatches pattern-1">Pattern 1</span></a>
+            <a href="#" id="pattern-2"><span class="pattern-swatches pattern-2">Pattern 2</span></a>
+            <a href="#" id="pattern-3"><span class="pattern-swatches pattern-3">Pattern 3</span></a>
+            <a href="#" id="pattern-none"><span class="pattern-swatches pattern-none">None</span></a>
+          </div>
+      </div>
+    </div>  -->       
+    <!--/ SETTING-->
+
+
+    <!-- PAGE CONTENT -->
     <div class="section" id="countdown">
       <div class="page-head-title text-center animatefadeInUp">
-
+                
                 <!-- CHANGE page title -->
 
-                <h1 style="color:#D68C8D;" class="gvf" font-size: "100px;">We're getting married!</h1><br/>
-
-                <!-- / CHANGE page title -->
+                <h1 style="color:#000000;" class="gvf" font-size: "100px;">We're getting married!</h1><br/>
+                
+                <!-- / CHANGE page title --> 
               <div id="getting-countdown" class="animatefadeIn">
-              </div>
+            </div>
        </div>
     </div>
 
@@ -279,12 +386,12 @@ p {
       <div class="margin-bottom">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-offset-2 col-md-8">
               <div class="page-head-title text-center animatefadeInUp">
-
+                
                     <h1 style="color:#D68C8D;" class="gvf">Our Story</h1>
                       <div class="spacer"> <hr></div>
-
+                       
                 </div>
             </div>
           </div>
@@ -297,8 +404,10 @@ p {
 
               <div class="col-md-5">
                    <div class="text-center">
-                   <p style="color:#000000;" font-size:"80px" class= "titil">Our Beginning & Ever After</p><br/>
-                   <p class= "titil">Our story began in August 2009, by the click of the “Poke" button on Facebook - a digital nudge to convey each other’s existence.<br/>
+                    
+                   <p style= font-size: "80px;" class="gvf">Our Beginning & Ever After</p> 
+
+                   <p>Our story began in August 2009, by the click of the “Poke" button on Facebook - a digital nudge to convey each other’s existence.<br/>
 
                    The "Poke" is one of Facebook's most-cryptic features, but for us, a simple “Poke” 9 years ago was the catalyst for our relationship.<br/>
                   We started chatting and got to know one another, until one night, we happened to be in the same place, at the same time. <br/>
@@ -325,21 +434,21 @@ p {
                 <div class="container">
                   <div class="row">
                     <div class="col-md-offset-2 col-md-8">
-
+                      
                       <div class="page-head-title text-center animatefadeInUp">
                         <h1 style="color:#D68C8D;" class="gvf">Invitation</h1>
                         <div class="spacer"><hr>
                         </div>
-
+                                            
                       <p class= "titil">Please join us for a celebration of love, <br/>laughter, family and friends,<br/>
-                        as we begin our new life together<br/>
+                        as we begin our new life together<br/><br/>
                       </p>
-
-                     <img src="images/NicoleWelsey.png" class="center">
-
+                      
+                     <img src="images/NicoleWelsey.png" class="nicolewesnames" >
+                      
                       <h3 class="gvf" style="color:#5E5E5E; font-size: 30px;"><strong >15 September 2018<br/>
                         13h00</strong></h3>
-
+                            
                             <p class= "titil" style="color: #D68C8D;">Ceremony</p>
                             <p class= "titil">Our Lady Of Lebanon Maronite Catholic Church, Mulbarton<br/>Reception To Follow Immediately
 
@@ -354,7 +463,7 @@ p {
                            on our wedding present list there really isn't much,<br/>
                            a gift of currency is all we ask,<br/>
                            to help us on our lifelong task.
-
+                      
                             <p><strong class= "titil" style="color: #D68C8D;">Dress code</strong></p>
                             <p class= "titil">Strictly Formal<br/> Children by invitation only</p>
                      </div>
@@ -365,7 +474,13 @@ p {
           </div>
         </div>
         </div>
-        </div>        <div class="my-parallax" style="background-image: url(images/1.jpg)">
+        </div>
+
+
+
+
+
+        <div class="my-parallax" style="background-image: url(images/1.jpg)">
           <div class="my-parallax-overlay-top text-center">
             <div class="alignment clearfix">
               <div class="v-align center-middle">
@@ -376,7 +491,7 @@ p {
                       <h1 class="gvf">Will you be joining us?</h1>
                       <p class= "titil" style="color:#FFFFFF"><strong>Let us know if you're coming</strong> </p>
                       <a class="large-button" href="#rsvp" id="verseker">Definitely!</a>
-
+                      
                     </div>
                   </div>
                 </div>
@@ -384,6 +499,12 @@ p {
             </div>
           </div>
         </div>
+
+
+
+
+
+
     <div class="section directions-container" id="location">
       <div class="container">
 
@@ -394,11 +515,14 @@ p {
               <!-- CHANGE page title -->
 
               <h1 style="color:#D68C8D;" class="gvf">Directions</h1>
-              <div class="spacer"><hr>
+              <div class="spacer"><hr>                   
                 </div>
               </div>
             </div>
-          </div>        <div class="row">
+          </div>
+
+
+        <div class="row">
           <div class="col-md-6">
             <div class="location-item">
 
@@ -409,13 +533,13 @@ p {
                   </a>
               </div>
             </div>
-          </div>
+          </div> 
 
             <div class="col-md-6">
               <div class="location-item">
                  <!-- CHANGE location content -->
                 <div class="text-left">
-
+                  
                   <p><strong style="color:#D68C8D;" class= "titil">Our Lady of Lebanon Maronite Catholic Church</p>
                   <p class= "titil">Address: 8 Blougom Crescent, Liefde-en-Vrede, Mulbarton</br>GPS Coordinates: 26°18'38.5''S 28°03'35.9''E</p>
 
@@ -427,16 +551,27 @@ p {
                             <li class= "titil">The lady of Lebanon Church is on the right.</br></ul>
 
               <p><strong style="color:#D68C8D;" class= "titil">MEMOIRE Wedding and Function Venue</p>
-                    <p class= "titil">Address: Kromdraai Road – R374, Muldersdrift Farm Valley, Muldersdrift, Krugersdorp</br>GPS Coordinates: 25°59'41.1"S 27°49'48.6"E</p></STRONG>
+                    <p class= "titil">Address: Kromdraai Road – R374, Muldersdrift Farm Valley, Muldersdrift, Krugersdorp</br>GPS Coordinates: 25°59'41.1"S 27°49'48.6"E</p></STRONG> 
 
                   <ul class="direction" style="padding: 2%;">
-                    <li class= "titil">Travel for 17km along Beyers Naude/M5, towards Honeydew, turn left onto R374.
+                    <li class= "titil">Travel for 17km along Beyers Naude/M5, towards Honeydew, turn left onto R374. 
                       <li class= "titil">Drive along R374 for 3.3km, you will see a sign for Memoire Wedding & Function Venue, turn left onto the gravel road.
-                        <li class= "titil">Travel along the gravel road for 1.2km and Memoire Wedding & Function Venue will be on your right.</li></ul>                    <p><br />Contact person: Jaco – 079 170 9431</p>
+                        <li class= "titil">Travel along the gravel road for 1.2km and Memoire Wedding & Function Venue will be on your right.</li></ul> 
+
+                  
+                    <p><br />Contact person: Jaco – 079 170 9431</p>
                  </div>
                </div>
              </div>
           </div><!-- /row -->
+        
+
+
+
+
+
+
+
   <div class="section directions-container" id="accommodation">
       <div class="container">
 
@@ -462,10 +597,18 @@ p {
 
                 </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
+     
+
+
+
+
+
+
+
     <div class="section" id="rsvp">
       <div class="container">
         <div class="row">
@@ -482,19 +625,21 @@ p {
           </div>
         </div>
     </div>
-  </div>      <div class="section-body clearfix">
+  </div>
+
+
+      <div class="section-body clearfix">
         <div class="row">
            <div class="form">
-
               <!-- form -->
-              <form id="contact-form" method="POST" data-netlify="true">
-
+              <form id="contact-form" method="POST">
+               
                 <div class="col-xs-12 col-sm-6 col-md-6">
                   <label for="formName" class="form-group" style="color: #14202c;">
                     <span class="color-element">*</span>Your name<span class="help-block"></span>
                     <input type="text" id="formName" name="name" placeholder="Your name" data-validation-required-message="Name is required and must be a string." />
                   </label>
-
+                  
                   <label for="formEmail" class="form-group" style="color: #14202c;">
                     <span class="color-element">*</span>Your E-mail<span class="help-block"></span>
                     <input type="email" id="formEmail" name="email" placeholder="Your E-mail" data-validation-required-message="An email address is required." data-validation-email-message="Please add a valid email" />
@@ -504,37 +649,35 @@ p {
                     Cell Number
                     <input type="text" id="formPhone" name="phone" placeholder="Your phone number" />
                   </label>
-                </div>                <div class="col-xs-12 col-sm-6 col-md-6">
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-6">
                   <label for="formMessage" class="form-group" style="color: #14202c;">
                     Additional information
                     <textarea name="message" id="formMessage" cols="10" rows="3" placeholder="Number of people attending and dietary requirements."></textarea>
                   </label>
                 </div>
-                <div class="col-md-6">
-                  <div data-netlify-recaptcha></div>
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <div class="form-button">
                     <input type="submit" class="large-button" value="Send">
                   </div>
                 </div>
-
-            </form>
-
-              <!-- / form -->
-
-        </div>
+              </form>
+          </div>
       </div>
     </div><!-- /section #rsvp -->
-   <div class="section directions-container" id="gallery">
-      <div class="container-fluid">          <div class="col-md-4">
 
-              <div class="person-image animatefadeIn">
+  
+   <div id="gallery">
+      <div class="container-fluid">
+         
+         <div class="col-md-4">
+            <div class="person-image animatefadeIn">
                 <!-- CHANGE page image -->
-                <img src="images/photo4.jpg" alt="Kylie and jade 1">
+                <img src="images/13.jpg" alt="Kylie and jade 1">
                 <!-- / CHANGE page image -->
               </div>
-
           </div>
 
           <div class="col-md-4">
@@ -551,14 +694,21 @@ p {
 
               <div class="person-image animatefadeIn">
                 <!-- CHANGE page image -->
-                <img src="images/photo6.jpg" alt="Kylie and jade 3">
+                <img src="images/14.jpg" alt="Kylie and jade 3">
                 <!-- / CHANGE page image -->
               </div>
 
           </div>
-
+        
       </div>
-    </div>    <!-- / PAGE CONTENT -->    <!-- FOOTER -->
+    </div>    
+
+
+
+    <!-- / PAGE CONTENT -->
+
+    
+    <!-- FOOTER -->
 
     <!-- CHANGE footer background -->
 
@@ -570,27 +720,30 @@ p {
 
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-5">
               <div class="footer-top-content animatezoomIn">
 
-                <!-- CHANGE footer title -->                <h3 style="font-size: 22px;" class="gvf">“I promise to help you love life, and to have the patience that love demands. I promise to live within the warmth of your heart, and always call it home. <br/>I promise to fiercely love you in all your forms, and to never forget that this, is a once in a lifetime love.”<br/>
+                <!-- CHANGE footer title -->
+
+
+                <h3 style="font-size: 22px;" class="gvf">“I promise to help you love life, and to have the patience that love demands. I promise to live within the warmth of your heart, and always call it home. <br/>I promise to fiercely love you in all your forms, and to never forget that this, is a once in a lifetime love.”<br/>
                                       </h3>
 
                 <!-- / CHANGE footer title -->
 
-                            </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </footer>
-
+   
     <footer class="bottom">
          <div class="container">
           <div class="row">
             <p>© 2018 All Rights Reserved Pistachio Designs</p>
-         </div>
-         </div>
+         </div>  
+         </div>    
     </footer>
 
     <!-- / FOOTER -->
@@ -608,6 +761,9 @@ p {
   </div>
    <!-- / CONTENT -->
 
+
+
+
     <!-- JavaScript
     ================================================== -->
     <!-- jQuery -->
@@ -617,7 +773,7 @@ p {
     <!-- Bootstrap -->
     <script src="js/libs/bootstrap.min.js"></script>
     <!-- Modernizr -->
-    <script src="js/libs/modernizr.js"></script>
+    <script src="js/libs/modernizr.js"></script>  
     <!-- Owl Carousel -->
     <script src="js/libs/owl.carousel.min.js"></script>
     <!-- Waypoints -->
@@ -628,7 +784,7 @@ p {
     <script src="js/libs/jquery.magnific-popup.min.js"></script>
     <!-- Countdown -->
     <script src="js/libs/jquery.countdown.min.js"></script>
-    <!-- Custom -->
+    <!-- Custom -->  
     <script src="js/main.js"></script>
   </body>
 </html>
