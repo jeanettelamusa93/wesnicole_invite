@@ -628,7 +628,7 @@ button.large-button, a.large-button, input.large-button[type="submit"] {
         <div class="row">
            <div class="form">
               <!-- form -->
-              <form id="contact-form" method="POST">
+              <form id="contact-form" method="POST" data-netlify="true">
                
                 <div class="col-xs-12 col-sm-6 col-md-6">
                   <label for="formName" class="form-group" style="color: #14202c;">
@@ -654,6 +654,9 @@ button.large-button, a.large-button, input.large-button[type="submit"] {
                     <textarea name="message" id="formMessage" cols="10" rows="3" placeholder="Number of people attending and dietary requirements."></textarea>
                   </label>
                 </div>
+		<div class="col-md-6">
+-                  <div data-netlify-recaptcha></div>
+-                </div>
                 <div class="col-md-12">
                   <div class="form-button">
                     <input type="submit" class="large-button" value="Send">
